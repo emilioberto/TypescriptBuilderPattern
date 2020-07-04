@@ -17,3 +17,6 @@ const pippo = Builder<User>()
 	.age(20)
 	.build();
 ```
+
+#Credits
+https://github.com/Vincent-Pang/builder-pattern
