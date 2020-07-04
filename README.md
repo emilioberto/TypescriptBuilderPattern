@@ -18,5 +18,5 @@ const pippo = Builder<User>()
 	.build();
 ```
 
-#Credits
+### Credits
 https://github.com/Vincent-Pang/builder-pattern
