@@ -17,7 +17,7 @@ export function Builder<T>(): IBuilder<T> {
 		{},
 		{
 			get(_: any, prop: IBuilderGetterProp<T>): IBuilderResult<T> {
-				if (prop === 'build') {
+				if (prop === buildFnKey) {
 					return (): T => builtObject;
 				}
 
